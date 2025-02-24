@@ -8,14 +8,14 @@ The password for the next level is stored in a file called readme located in the
 
 - Kết nối tới server với username là bandit0 và password là bandit0:
 
-![img](1)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image1.png?raw=true)
 
 - Tìm được password là ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If của username bandit1: 
 
-![img](2)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image2.png?raw=true)
 
 - Truy cập với username bandit1: 
 
-![img](3)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image3.png?raw=true)
 
 => Truy cập thành công.
