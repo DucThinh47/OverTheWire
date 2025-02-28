@@ -8,15 +8,15 @@ The password for the next level is stored in the file data.txt and is the only l
 
 Đăng nhập bandit8: 
 
-![img](30)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image30.png?raw=true)
 
 Dùng lệnh ***ls- al***:
 
-![img](31)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image31.png?raw=true)
 
 Đọc nội dung file data.txt: 
 
-![img](32)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image32.png?raw=true)
 
 => Một danh sách rất dài các chuỗi được mã hóa. Dựa vào mô tả của thử thách "the only line of text that occurs only once", có thể dùng lệnh ***sort data.txt | uniq -u***, trong đó: 
 
@@ -24,6 +24,6 @@ Dùng lệnh ***ls- al***:
 
 - ***uniq -u***: Chỉ hiển thị những dòng không bị trùng lặp trong tệp. Các dòng xuất hiện nhiều hơn một lần sẽ bị loại bỏ hoàn toàn.
 
-![img](33)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image33.png?raw=true)
 
 => Tìm được password bandit9: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
