@@ -6,18 +6,18 @@ The password for the next level is stored in a hidden file in the inhere directo
 
 Đăng nhập bandit3: 
 
-![img](9)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image9.png?raw=true)
 
 Dùng lệnh ***ls***: 
 
-![img](10)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image10.png?raw=true)
 
 => Không tìm được gì. Thử dùng lệnh ***ls -al*** để liệt kê đầy đủ hơn: 
 
-![img](11)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image11.png?raw=true)
 
 => Tìm được file ..Hiding_From_You. Thử xem nội dung file này bằng lệnh ***cat '...Hiding_From_You'***: 
 
-![img](12)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image12.png?raw=true)
 
 => Tìm được password cho bandit4: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
