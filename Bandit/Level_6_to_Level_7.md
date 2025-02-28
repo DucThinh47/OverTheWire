@@ -14,11 +14,11 @@ owned by group bandit6
 
 Đăng nhập bandit6: 
 
-![img](22)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image22.png?raw=true)
 
 Dùng lệnh ***ls -al***: 
 
-![img](23)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image23.png?raw=true)
 
 Dựa vào mô tả thử thách, cần tìm file có các thuộc tính: owned by user bandit7, owned by group bandit6 và 33 bytes in size. Có thể sử dụng lệnh: ***find / -type f -user bandit7 -group bandit6 -size 33c -print0 | xargs -0 file***, trong dó: 
 
@@ -28,13 +28,13 @@ Dựa vào mô tả thử thách, cần tìm file có các thuộc tính: owned 
 
 - ***-group bandit6***: chỉ định file thuộc group bandit6
 
-![img](24)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image24.png?raw=true)
 
-![img](25)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image25.png?raw=true)
 
 => Tìm được file bandit7.password, dùng lệnh ***cat***:
 
-![img](26)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image26.png?raw=true)
 
 => Tìm được password bandit7: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
