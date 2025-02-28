@@ -10,7 +10,7 @@ The password for the next level is stored in a file called - located in the home
 
 ![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image3.png?raw=true)
 
-- Tìm được password cho username bandit2 là 263JGJPfgU6LtdEvgfWU1XP5yac29mFx:
+- Tìm được password cho username bandit2 là 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image4.png?raw=true)
 
