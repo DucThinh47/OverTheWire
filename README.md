@@ -24,4 +24,4 @@
 
 - [Level 8 to Level 9](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_8_to_Level_9.md)
 
-- [Level 9 to Level 10]()
+- [Level 9 to Level 10](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_9_to_Level_10.md)
