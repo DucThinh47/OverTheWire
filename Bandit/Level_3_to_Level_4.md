@@ -4,6 +4,8 @@ Level Goal
 
 The password for the next level is stored in a hidden file in the inhere directory.
 
+# Solution
+
 Đăng nhập bandit3: 
 
 ![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image9.png?raw=true)

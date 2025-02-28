@@ -4,6 +4,8 @@ Level Goal
 
 The password for the next level is stored in a file called spaces in this filename located in the home directory
 
+# Solution
+
 - Truy cập username bandit2: 
 
 ![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image6.png?raw=true)

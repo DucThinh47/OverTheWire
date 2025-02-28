@@ -4,6 +4,8 @@ Level Goal
 
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 
+# Solution
+
 Đăng nhập bandit4: 
 
 ![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image13.png?raw=true)
