@@ -26,6 +26,6 @@
 
 - [Level 9 to Level 10](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_9_to_Level_10.md)
 
-- [Level 10 to Level 11]()
+- [Level 10 to Level 11](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_10_to_Level_11.md)
 
 

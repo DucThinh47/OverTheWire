@@ -8,15 +8,15 @@ The password for the next level is stored in the file data.txt, which contains b
 
 Đăng nhập bandit10:
 
-![img](38)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image38.png?raw=true)
 
 Dùng lệnh ***ls -al***: 
 
-![img](39)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image39.png?raw=true)
 
 => Tìm được file data.txt. Đọc nội dung file: 
 
-![img](40)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image40.png?raw=true)
 
 => Nội dung được mã hóa base64. Sử dụng lệnh ***base64 -d data.txt***, trong đó: 
 
