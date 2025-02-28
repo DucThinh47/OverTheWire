@@ -22,7 +22,7 @@ Dùng lệnh ***ls -al***:
 
 - ***-d***: chỉ định decode, theo sau là tên file.
 
-![img]()
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image41.png?raw=true)
 
 => Tìm được password bandit11: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
