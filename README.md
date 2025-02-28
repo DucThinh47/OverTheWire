@@ -17,3 +17,5 @@
 - [Level 4 to Level 5](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_4_to_Level_5.md)
 
 - [Level 5 to Level 6](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_5_to_Level_6.md)
+
+- [Level 6 to Level 7]()
