@@ -10,37 +10,37 @@ Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read t
 
 Đăng nhập bandit16: 
 
-![img](85)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image85.png?raw=true)
 
 Theo mô tả thử thách, sử dụng lệnh ***nmap localhost -p31000-32000*** để quét dịch vụ đang chạy trên những cổng mở từ 31000 đến 32000: 
 
-![img](86)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image86.png?raw=true)
 
 => Những cổng đang mở là: 31046,31518,31790,31960
 
 Tiếp theo cần tìm cổng nào lắng nghe kết nối SSL/TLS. Thử cổng 31046: 
 
-![img](87)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image87.png?raw=true)
 
 => Không phải. Tiếp theo thử cổng 31518: 
 
-![img](88)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image88.png?raw=true)
 
-![img](89)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image89.png?raw=true)
 
 => Không trả lại gì khi cung cấp password bandit315. Tiếp theo, thử cổng 31790: 
 
-![img](90)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image90.png?raw=true)
 
-![img](91)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image91.png?raw=true)
 
 => Không trả về password bandit17. Tiếp theo, thử cổng 31960: 
 
-![img](92)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image92.png?raw=true)
 
 => Việc sử dụng openssl để tạo kết nối SSL/TLS không được. Thử sử dụng netcat bằng lệnh ***ncat --ssl localhost 31790**, ncat là một bản nâng cấp của nc, cho phép kết nối đến cổng 31790 bằng SSL/TLS: 
 
-![img](93)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image93.png?raw=true)
 
 => Nhập password bandit16 và nhận được ssh private key để kết nối đến bandit17. 
 
@@ -76,9 +76,9 @@ Lưu khóa này vào file /tmp/sshkey_bandit17. Sau đó cấp quyền cho file 
 
 Sau đó dùng lệnh ***ssh -i /tmp/sshkey_bandit17 -p 2220 bandit17@localhost*** để kết nối đến bandit17: 
 
-![img](94)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image94.png?raw=true)
 
-![img](95)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image95.png?raw=true)
 
 => Kết nối thành công đến bandit17. 
 
