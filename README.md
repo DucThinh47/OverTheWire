@@ -40,7 +40,7 @@
 
 - [Level 16 to Level 17](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_16_to_Level_17.md)
 
-- [Level 17 to Level 18]()
+- [Level 17 to Level 18](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_17_to_Level_18.md)
 
 
 

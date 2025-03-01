@@ -10,15 +10,15 @@ NOTE: if you have solved this level and see ‘Byebye!’ when trying to log int
 
 Đăng nhập bandit17: 
 
-![img](96)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image96.png?raw=true)
 
 Dùng lệnh ***ls***:
 
-![img](97)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image97.png?raw=true)
 
 Dựa vào mô tả của thử thách, cần tìm dòng khác nhau giữa file password.old và password.new, dùng lệnh ***diff password.old password.new***, lệnh sẽ tìm ra dòng khác nhau giữa 2 file: 
 
-![img](98)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image98.png?raw=true)
 
 => Password bandit18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
