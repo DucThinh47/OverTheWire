@@ -8,9 +8,9 @@ The password for the next level is stored in a file readme in the homedirectory.
 
 Đăng nhập bandit18: 
 
-![img](100)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image100.png?raw=true)
 
-![img](99)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image99.png?raw=true)
 
 (Đọc note level 17 to level 18)
 
