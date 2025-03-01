@@ -8,33 +8,33 @@ The password for the next level is stored in /etc/bandit_pass/bandit14 and can o
 
 Đăng nhập bandit13:
 
-![img](68)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image68.png?raw=true)
 
 Dùng lệnh ***ls -al***: 
 
-![img](69)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image69.png?raw=true)
 
 Xem nội dung sshkey.private: 
 
-![img](70)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image70.png?raw=true)
 
 Xem trang man ssh và tìm được tùy chọn ***-i***: 
 
-![img](71)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image71.png?raw=true)
 
 Theo mô tả của đề, user bandit14 sẽ chạy trên localhost, sử dụng lệnh ***ssh bandit14@localhost***:
 
-![img](72)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image72.png?raw=true)
 
 => Không có quyền đăng nhập. Thử dùng lệnh ***ssh -i sshkey.private -p 2220 bandit14@localhost***, lệnh đã thêm khóa xác thực: 
 
-![img](73)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image73.png?raw=true)
 
 Đăng nhập thành công bandit14. 
 
 Theo mô tả thử thách, mật khẩu bandit14 nằm ở file /etc/bandit_pass/bandit14: 
 
-![img](74)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image74.png?raw=true)
 
 => Tìm được password bandit14: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 

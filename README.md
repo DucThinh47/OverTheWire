@@ -32,7 +32,7 @@
 
 - [Level 12 to Level 13](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_12_to_Level_13..md)
 
-- [Level 13 to Level 14]()
+- [Level 13 to Level 14](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_13_to_Level_14.md)
 
 
 
