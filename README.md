@@ -42,7 +42,7 @@
 
 - [Level 17 to Level 18](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_17_to_Level_18.md)
 
-- [Level 18 to Level 19]()
+- [Level 18 to Level 19](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_18_to_Level_19.md)
 
 
 
