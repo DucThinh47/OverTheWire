@@ -8,11 +8,11 @@ A program is running automatically at regular intervals from cron, the time-base
 
 Đăng nhập bandit21: 
 
-![img](116)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image116.png?raw=true)
 
 Theo mô tả thử thách, truy cập /etc/cron.d và tìm hiểu: 
 
-![img](117)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image117.png?raw=true)
 
 => Nội dung của file cronjob_bandit22 cho thấy đây là là một tệp cron job, dùng để thiết lập các tác vụ tự động chạy theo lịch trình. 
 
@@ -22,7 +22,7 @@ Theo mô tả thử thách, truy cập /etc/cron.d và tìm hiểu:
 
 Truy cập /usr/bin để tìm hiểu file cronjob_bandit22.sh:
 
-![img](118)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image118.png?raw=true)
 
 => Tệp cronjob_bandit22.sh là một script Bash (ASCII text executable) chạy theo lịch trình do cronjob_bandit22 đặt trước đó
 
@@ -33,6 +33,6 @@ Do script này được cron chạy mỗi phút, nên tệp /tmp/t7O6lds9S0RqQh9
 
 => Xem nội dung /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv:
 
-![img](119)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image119.png?raw=true)
 
 => Password bandit22: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
