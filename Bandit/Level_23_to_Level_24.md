@@ -12,11 +12,11 @@ NOTE 2: Keep in mind that your shell script is removed once executed, so you may
 
 Đăng nhập bandit23: 
 
-![img](126)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image126.png?raw=true)
 
 Theo mô tả thử thách, truy cập /etc/cron.d: 
 
-![img](127)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image127.png?raw=true)
 
 Đọc nội dung file cronjob_bandit24: 
 

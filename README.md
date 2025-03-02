@@ -52,7 +52,7 @@
 
 - [Level 22 to Level 23](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_22_to_Level_23.md)
 
-- [Level 23 to Level 24]()
+- [Level 23 to Level 24](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/Level_23_to_Level_24.md)
 
 
 
