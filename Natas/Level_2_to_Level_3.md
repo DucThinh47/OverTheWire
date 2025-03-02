@@ -8,30 +8,30 @@ URL: http://natas3.natas.labs.overthewire.org
 
 Truy cập URL: 
 
-![img](12)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image12.png?raw=true)
 
-![img](13)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image13.png?raw=true)
 
 Xem source page: 
 
-![img](14)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image14.png?raw=true)
 
 Truy cập file wechall.js: 
 
-![img](15)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image15.png?raw=true)
 
 Không tìm được gì. Dựa vào gợi ý từ source page *"No more information leaks!! Not even Google will find it this time..."*, có thể có thông tin ở file robots.txt do file này là danh sách chứa các endpoint mà web owner không muốn được tìm kiếm. 
 
 Truy cập robots.txt: 
 
-![img](16)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image16.png?raw=true)
 
 Truy cập /s3cr3t/: 
 
-![img](17)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image17.png?raw=true)
 
 Đọc nội dung file users.txt: 
 
-![img](18)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image18.png?raw=true)
 
 => Password natas4: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
