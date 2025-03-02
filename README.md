@@ -2,9 +2,9 @@
 
 ## Content
 
-- [Bandit]()
+- [Bandit](https://github.com/DucThinh47/OverTheWire/tree/main#bandit)
 
-- [Natas]()
+- [Natas](https://github.com/DucThinh47/OverTheWire/tree/main?tab=readme-ov-file#natas)
 
 ### Bandit
 
@@ -63,6 +63,6 @@
 
 ### Natas
 
-
+- [Level 0](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/Level_0.md)
 
 

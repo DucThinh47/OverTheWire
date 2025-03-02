@@ -15,14 +15,14 @@ URL:      http://natas0.natas.labs.overthewire.org
 
 Truy cập URL:
 
-![alt text](image.png)
+![alt text](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image.png?raw=true)
 
 Nhập username là natas0 và password là natas0. 
 
-![alt text](image-1.png)
+![alt text](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image-1.png?raw=true)
 
 Xem source page: 
 
-![alt text](image-2.png)
+![alt text](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image-2.png?raw=true)
 
 => Tìm được password natas1: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
