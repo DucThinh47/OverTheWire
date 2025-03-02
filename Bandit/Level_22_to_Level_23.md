@@ -10,21 +10,21 @@ NOTE: Looking at shell scripts written by other people is a very useful skill. T
 
 Đăng nhập bandit22: 
 
-![img](120)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image120.png?raw=true)
 
 Dựa vào mô tả thử thách, truy cập /etc/cron.d: 
 
-![img](121)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image121.png?raw=true)
 
 Đọc nội dung file cronjob_bandit23:
 
-![img](122)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image122.png?raw=true)
 
 =>Một cron job chạy mỗi phút (* * * * *) dưới quyền bandit23, thực thi script /usr/bin/cronjob_bandit23.sh. 
 
 Truy cập và đọc shell /usr/bin/cronjob_bandit23.sh: 
 
-![img](123)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image123.png?raw=true)
 
 - *whoami*: lấy tên user hiện tại (trong trường hợp này là bandit23).
 
@@ -34,13 +34,13 @@ Truy cập và đọc shell /usr/bin/cronjob_bandit23.sh:
 
 Thử tìm tên tệp chứa mật khẩu: 
 
-![img](124)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image124.png?raw=true)
 
 => Tên tệp chứa mật khẩu: /tmp/8ca319486bfbbc3663ea0fbe81326349
 
 Đọc nội dung tệp này: 
 
-![img](125)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image125.png?raw=true)
 
 => Mỗi phút, script của bandit23 chạy và lưu mật khẩu vào một file trong /tmp/ với tên là MD5 của chuỗi "I am user bandit23".
 Có thể tính toán MD5 này, rồi đọc file tương ứng để lấy mật khẩu.
