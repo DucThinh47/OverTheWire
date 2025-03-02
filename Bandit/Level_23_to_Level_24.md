@@ -20,11 +20,11 @@ Theo mô tả thử thách, truy cập /etc/cron.d:
 
 Đọc nội dung file cronjob_bandit24: 
 
-![img](128)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image128.png?raw=true)
 
 Dựa vào nội dung file, truy cập và đọc nội dung shell /usr/bin/cronjob_bandit24.sh:
 
-![img](129)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image129.png?raw=true)
 
 Phân tích: 
 
@@ -40,7 +40,7 @@ Do bandit23 có quyền ghi vào /var/spool/bandit24/foo, nên có thể:
 
 - Chờ cronjob chạy và thực thi script
 
-![img](130)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Bandit/images/image130.png?raw=true)
 
 => Password bandit24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
