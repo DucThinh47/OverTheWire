@@ -8,11 +8,11 @@ URL: http://natas8.natas.labs.overthewire.org
 
 Truy cập URL: 
 
-![img](41)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image41.png?raw=true)
 
 Click View sourcecode: 
 
-![img](42)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image42.png?raw=true)
 
 => Có thể thấy input nhập vào sẽ được so sánh với chuỗi đã được mã hóa $encodedSecret. Hàm mã hóa chuỗi:
 
@@ -40,12 +40,12 @@ Viết một đoạn code đơn giản để giải mã:
         echo "Chuỗi bí mật: " . $decodedSecret;
     ?>
 
-![img](43)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image43.png?raw=true)
 
 => Tìm được giá trị $secret: oubWYf2kBq
 
 Quay về trang chủ, nhập giá trị và click Submit: 
 
-![img](44)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image44.png?raw=true)
 
 => Password natas9: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
