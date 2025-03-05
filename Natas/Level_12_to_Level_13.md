@@ -8,11 +8,11 @@ URL: http://natas13.natas.labs.overthewire.org
 
 Truy cập website: 
 
-![img](70)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image70.png?raw=true)
 
 Click View sourcecode:
 
-![img](71)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image71.png?raw=true)
 
 Đoạn mã PHP: 
 
@@ -77,71 +77,71 @@ Tuy nhiên vẫn tồn tại lỗ hổng trong đoạn code:
 
 Thử upload 1 file JPEG hợp lệ và Intercept request: 
 
-![img](72)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image72.png?raw=true)
 
 Send request: 
 
-![img](73)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image73.png?raw=true)
 
 Thử upload file shell.php và Intercept request: 
 
-![img](74)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image74.png?raw=true)
 
 Send request: 
 
-![img](75)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image75.png?raw=true)
 
 => Website đã lọc file không phải image. 
 
 Thử sửa Content-Type thành image/jpeg: 
 
-![img](76)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image76.png?raw=true)
 
 Send request: 
 
-![img](77)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image77.png?raw=true)
 
 Không bypass được. Thử sửa filename thành shell.php.jpg: 
 
-![img](78)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image78.png?raw=true)
 
 Send request: 
 
-![img](79)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image79.png?raw=true)
 
 Vẫn không bypass được. 
 
 Thử thay đổi Magic number của file .php thành Magic number của file .jpg. Để nhìn rõ hơn, thêm AAAA vào đầu nội dung file shell.php: 
 
-![img](80)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image80.png?raw=true)
 
 Sử dụng lệnh *hexeditor shell.php*: 
 
-![img](81)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image81.png?raw=true)
 
 41 41 41 41 tượng trưng cho 4 chữ A, sửa thành ff d8 ff e0 là tượng trưng cho dạng hex của file .jpg: 
 
-![img](82)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image82.png?raw=true)
 
 Kiểm tra lại định dạng file sau khi đổi magic number: 
 
-![img](83)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image83.png?raw=true)
 
 Upload lại file: 
 
-![img](84)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image84.png?raw=true)
 
 Sửa extension của file website tự sinh thành .php: 
 
-![img](85)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image85.png?raw=true)
 
 Send request và quan sát website: 
 
-![img](86)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image86.png?raw=true)
 
 Click vào link file .php này: 
 
-![img](87)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image87.png?raw=true)
 
 => Pasword natas14: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
 
