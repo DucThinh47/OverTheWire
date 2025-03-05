@@ -8,11 +8,11 @@ URL: http://natas11.natas.labs.overthewire.org
 
 Truy cập website: 
 
-![img](52)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image52.png?raw=true)
 
 Click View sourcecode: 
 
-![img](53)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image53.png?raw=true)
 
 Tìm được đoạn mã PHP: 
 
@@ -80,13 +80,13 @@ Tìm được đoạn mã PHP:
 
 Cookie hiện tại của trang web: 
 
-![img](54)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image54.png?raw=true)
 
 => HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg%3D
 
 Tìm XOR key: 
 
-![img](55)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image55.png?raw=true)
 
 => eDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoe
 
@@ -94,13 +94,13 @@ Tìm XOR key:
 
 Tìm Cookie mới: 
 
-![img](56)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image56.png?raw=true)
 
 => HmYkBwozJw4WNyAAFyB1VUc9MhxHaHUNAic4Awo2dVVHZzEJAyIxCUc5
 
 Thay cookie mới vào trang web: 
 
-![img](57)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image57.png?raw=true)
 
 => Password natas12: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
 
