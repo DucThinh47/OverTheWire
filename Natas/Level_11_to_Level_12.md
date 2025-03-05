@@ -8,15 +8,13 @@ URL: http://natas12.natas.labs.overthewire.org
 
 Truy cập website: 
 
-![img](58)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image58.png?raw=true)
 
 Click View sourcecode: 
 
-![img](59)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image59.png?raw=true)
 
 Tìm được đoạn mã PHP: 
-
-![img]()
 
     <?php
 
@@ -68,47 +66,47 @@ Tạo payload có dạng sau:
         echo system("cat /etc/natas_webpass/natas13");
     ?>
 
-![img](60)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image60.png?raw=true)
 
 Thử upload 1 file jpeg hợp lệ và Intercept request này: 
 
-![img](61)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image61.png?raw=true)
 
 Send request này:
 
-![img](62)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image62.png?raw=true)
 
 Có vẻ kích thước file vượt quá mức cho phép, thử upload file có kích thước < 1KB:
 
-![img](63)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image63.png?raw=true)
 
 Send request: 
 
-![img](64)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image64.png?raw=true)
 
 => Upload file thành công. 
 
 Lần này thử chọn upload file shell.php: 
 
-![img](65)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image65.png?raw=true)
 
 Send request: 
 
-![img](66)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image66.png?raw=true)
 
 => Tên file bị thay đổi và định dạng thành file .jpg
 
 Upload lại nhưng lần này chỉnh sửa Request: 
 
-![img](67)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image67.png?raw=true)
 
 => Đổi extension file mà website tự sinh ra thành .php, forward request này: 
 
-![img](68)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image68.png?raw=true)
 
 => Extension của file đã đổi thành .php, click vào tên file này: 
 
-![img](69)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Natas/images/image69.png?raw=true)
 
 => Password natas13: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 
