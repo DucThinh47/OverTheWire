@@ -18,21 +18,21 @@ Enjoy.
 
 Đăng nhập krypton3: 
 
-![img](8)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image8.png?raw=true)
 
 Di chuyển vào thư mục /krypton/krypton3: 
 
-![img](9)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image9.png?raw=true)
 
 Xem nội dung file krypton4:
 
-![img](10)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image10.png?raw=true)
 
 Văn bản được mã hóa là **KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS**. 
 
 Xem nội dung các file còn lại: 
 
-![img](11)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image11.png?raw=true)
 
 Theo mô tả thử thách, đây là một mã thay thế kí tự dựa trên tần suất chữ cái. 
 
@@ -42,7 +42,7 @@ Theo mô tả thử thách, đây là một mã thay thế kí tự dựa trên 
 
     cat found* | tr -d ' '
 
-![img](12)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image12.png?raw=true)
 
 Script python dùng để tính tần suất xuất hiện của các từ trong chuỗi thu được:
 
