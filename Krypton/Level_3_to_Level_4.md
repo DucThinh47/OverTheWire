@@ -96,7 +96,9 @@ Trong đó:
 
 Thực thi script, output: WELLDONETHELEVELFOURPQSSWORDISBRUTE
 
-=> Password krypton4: WELLDONETHELEVELFOURPQSSWORDISBRUTE
+=> Password krypton4: BRUTE
+
+
 
 
 
