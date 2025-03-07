@@ -40,21 +40,21 @@ Here is an example:
 
 Đăng nhập krypton2: 
 
-![img](4)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image4.png?raw=true)
 
 Di chuyển đến thư mục /krypton2: 
 
-![img](5)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image5.png?raw=true)
 
 Đọc nội dung file krypton3: 
 
-![img](6)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image6.png?raw=true)
 
 => Password krypton3 được mã hóa Caesar (theo mô tả thử thách): OMQEMDUEQMEK
 
 Giải mã chuỗi này: 
 
-![img](7)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image7.png?raw=true)
 
 => Password krypton3: 	CAESARISEASY
 
