@@ -8,15 +8,15 @@ The password for level 2 is in the file ‘krypton2’. It is ‘encrypted’ us
 
 Đăng nhập krypto1: 
 
-![img](0)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image.png?raw=true)
 
 Truy cập /krypton/krypton1: 
 
-![img](1)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image1.png?raw=true)
 
 => Tìm được file krypton2. Đọc nội dung file này: 
 
-![img](2)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image2.png?raw=true)
 
 => Nội dung file: YRIRY GJB CNFFJBEQ EBGGRA
 
@@ -24,7 +24,7 @@ Dựa vào mô tả thử thách, mật khẩu bị mã hóa bằng một phép 
 
 Thử giải mã với ROT13: 
 
-![img](3)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image3.png?raw=true)
 
 => Password krypton2: ROTTEN
 

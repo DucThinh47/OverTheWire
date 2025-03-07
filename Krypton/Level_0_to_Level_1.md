@@ -14,4 +14,4 @@ Giải mã chuỗi thử thách đưa ra, tìm được **KRYPTONISGREAT**.
 
 Đăng nhập krypton1: 
 
-![img](0)
+![img](https://github.com/DucThinh47/OverTheWire/blob/main/Krypton/images/image.png?raw=true)
